@@ -1,0 +1,17 @@
+.header{
+    height: 50px;
+    background-color: #444;
+}
+.header header{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 50px;
+}
+/* Link就是a */
+.header header a{
+    margin:0 20px;
+    color: #fff;
+}
+.header img{
+    width: 120px;
+}

@@ -1,0 +1,25 @@
+ul li{
+    list-style: none;
+}
+.box{
+    margin: 10px 0 0 0;
+    width: 500px;
+    height: 90px;
+}
+.box ul{
+    float: left;
+}
+.box li{
+    width:30px;
+    height: 30px;
+    float: left;
+    border:1px solid #999;
+    text-align: center;
+    line-height: 30px;
+}
+.box li:first-child{
+    border-radius: 5px 0px 0px 5px;
+}
+.box li:last-child{
+    border-radius: 0px 5px 5px 0px;
+}
